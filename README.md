@@ -1,17 +1,29 @@
-# Mail Generation 
 
-The code was developed to trigger mail to multiple mail addresses along with multiple file attachments.
+# Mail Generation in Python
 
-## Procedure to use the code
+## Introduction
+Mail Generation in Python is a versatile script designed to automate the process of sending emails. This tool is especially useful for scenarios requiring the dispatch of emails to multiple recipients with the option to attach multiple files.
 
-### Step1: Use the below statement to import the mail class 
+## Table of Contents
+- [Introduction](#introduction)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+- [License](#license)
 
-from mail_generation import mail
+## Installation
+(Provide instructions on how to install the project, including any prerequisites.)
 
-### Step2: Create object of the class
+## Usage
+To use the Mail Generation script:
+1. Import the `mail` class: `from mail_generation import mail`
+2. Create an object of the class: `obj = mail()`
+3. Trigger the mail: `obj.trigger_mail()`
 
-obj=mail()
+## Features
+- Send emails to multiple recipients.
+- Attach multiple files.
+- Configurable email parameters (From, To, CC, Subject, Body).
 
-### Step3: Call trigger_mail() for triggering the mail
-
-obj.trigger_mail()
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
