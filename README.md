@@ -12,7 +12,12 @@ Mail Generation in Python is a versatile script designed to automate the process
 - [License](#license)
 
 ## Installation
-`pip install -r requirement.txt`
+1. Clone the repository to your local machine.
+2. Navigate to the project directory.
+3. Install the required dependencies by running:
+   ```
+   pip install -r requirements.txt
+   ```
 
 ## Usage
 To use the Mail Generation script:
